@@ -8,7 +8,7 @@ define('DB_PASS','');
 
   // URL Root
 
-  define('URL', 'http://localhost/estore/');
+  define('URL', 'http://localhost/ecommerc_project2/');
   // Site Name
   define('SITENAME', 'Karam');
   define("afaf","dkjskj");
