@@ -10,7 +10,7 @@ define('DB_PASS','');
 
   define('URL', 'http://localhost/estore/');
   // Site Name
-  define('SITENAME', 'Karama');
+  define('SITENAME', 'Karamaaaaaaa');
 <<<<<<< HEAD
   define("afaf","dkjskj");
 =======
