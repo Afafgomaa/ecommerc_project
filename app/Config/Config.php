@@ -10,7 +10,7 @@ define('DB_PASS','');
 
   define('URL', 'http://localhost/ecommerc_project2/');
   // Site Name
-  define('SITENAME', 'Karam');
+  define('SITENAME', 'Karamaaaaaa');
 <<<<<<< HEAD
   define("afaf","dkjskj");
 =======
