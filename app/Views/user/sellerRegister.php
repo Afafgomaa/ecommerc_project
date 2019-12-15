@@ -4,10 +4,10 @@
     <div class="container">
         <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
             <div class="col-first">
-                <h1>Register</h1>
+                <h1>Seller Register </h1>
                 <nav class="d-flex align-items-center">
                     <a href="/">Home<span class="lnr lnr-arrow-right"></span></a>
-                    <a href="">Register</a>
+                    <a href="">Register As Seller</a>
                 </nav>
             </div>
         </div>
@@ -31,8 +31,8 @@
             </div>
             <div class="col-lg-6">
                 <div class="login_form_inner">
-                    <h3>signUp to enter</h3>
-                    <form class="row login_form" action="<?= URL .'/user/Register/createNewUser'?>" method="POST" id="contactForm" novalidate="novalidate">
+                    <h3>Register New Account </h3>
+                    <form class="row login_form" action="<?= URL .'/user/Register/createNewSellerAccount'?>" method="POST" id="contactForm" novalidate="novalidate">
                         <div class="col-md-12 form-group">
                             <input type="text" class="form-control" id="name" name="username" placeholder="Username" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Username'">
                         </div>
@@ -50,7 +50,7 @@
                         </div> -->
                         <div class="col-md-12 form-group">
                             <button type="submit" value="register" class="primary-btn">Sign Up</button>
-                            <a href="<?= URL . 'user/Register/seller'?>" class="primary-btn">Register As Seller</a>
+                          
                             
                         </div>
                     </form>

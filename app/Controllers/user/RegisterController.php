@@ -75,4 +75,43 @@ class RegisterController
 
   }
 
+
+  public function seller()
+  {
+      return  $this->model->render('user/sellerRegister');
+  }
+
+  public function createNewSellerAccount()
+  {
+    if($_SERVER['REQUEST_METHOD'] == 'POST'){
+        
+      $validator = new Validate();
+
+      $validator->check($_POST, array(
+
+       'username' => array(
+         'required' => true,
+         'min'      => 3,
+         'max'     => 60
+       ),
+       'email' => array(
+         'required' => true
+
+       ),
+       'password' => array(
+         'min' => 6)
+        )
+
+
+    );
+
+    if($validator->passed()){
+      
+     
+    }else {
+      echo "You Have error";
+    }
+  }
+  }
+
 }
