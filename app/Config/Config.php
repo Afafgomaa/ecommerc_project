@@ -12,4 +12,5 @@ define('DB_PASS','');
   // Site Name
 
   define('SITENAME', 'Karam');
+  dlkdbnk
 
