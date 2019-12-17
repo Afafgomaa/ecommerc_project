@@ -11,5 +11,5 @@ define('DB_PASS','');
   define('URL', 'http://localhost/estore/');
   // Site Name
 
-  define('SITENAME', 'Karam');
+  define('SITENAME', 'Karamaaaصa');
 
